@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#title{
+  background-color: rgb(255, 99, 71);
+
+}
+.container-fluid{
+  padding: 0 15% ;
+}
+.col-md-6{
+  padding: 116px 0;
+
+}
+.menu{
+  padding-left: 100px;
+  padding-right: 12px;
+}
+.navColor {
+  background-color:rgba(255, 99, 71, 0.2);
+
+}
+.nav-link{
+  padding: 0;
+}
+.navColor a{
+  color: white;
+}
+.items:hover{
+  color:gray;
+}
+.text h1{
+  color:white;
+  width:400px;
+}
+.btn-1{
+  margin:32px 15px 32px 0;
+}
+.image{
+position: absolute;
+  transform: rotate(25deg);
+  width:350px;
+  height: 650px;
+
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  padding: 7%;
+}
+.icon{
+  color:rgb(255, 99, 71);
+}
+#test-press{
+
+  background-color:rgb(255, 99, 71);
+  text-align: center;
+  color: white;
+
+}
+.text1{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.dog{
+  border-radius: 100%;
+  height: 150px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.image1{
+  height:40px;
+  padding:10px;
+}
+
+.card{
+  height: 350px;
+  text-align: center;
+}
+
+.card-style{
+  padding:90px 50px 90px 50px;
+}
+#cta{
+
+padding: 7% 15%;
+  background-color: rgb(255, 99, 71);
+  color: white;
+  text-align: center;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.icons{
+  padding:15px;
+}
+@media (max-width:990px)
+ {
+.image{
+  position: static;
+  transform: rotate(0);
+  text-align: center;
+}
+
+}
